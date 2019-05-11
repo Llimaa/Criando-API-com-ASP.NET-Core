@@ -1,0 +1,14 @@
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.deps.json
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.runtimeconfig.json
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.runtimeconfig.dev.json
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.dll
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.pdb
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.csprojAssemblyReference.cache
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.csproj.CoreCompileInputs.cache
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.RazorAssemblyInfo.cache
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.RazorAssemblyInfo.cs
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.AssemblyInfoInputs.cache
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.AssemblyInfo.cs
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.RazorTargetAssemblyInfo.cache
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.dll
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.pdb
