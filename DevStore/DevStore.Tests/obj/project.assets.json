@@ -1617,6 +1617,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "DevStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DevStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -5817,10 +5827,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "DevStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevStore.Domain/DevStore.Domain.csproj",
+      "msbuildProject": "../DevStore.Domain/DevStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DevStore.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
@@ -5856,7 +5872,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Domain\\DevStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Domain\\DevStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5881,7 +5901,6 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
