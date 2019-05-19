@@ -6,9 +6,12 @@ C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Tests.runtimeconfig.dev.json
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Tests.dll
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Tests.pdb
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Domain.dll
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Domain.pdb
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csprojAssemblyReference.cache
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.AssemblyInfoInputs.cache
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.AssemblyInfo.cs
+C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csproj.CopyComplete
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.dll
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.pdb

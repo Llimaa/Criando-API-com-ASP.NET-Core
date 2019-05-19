@@ -1,19 +1,29 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "efefa8243d0c78f1cceacfa743c0533c756cbab7"
+    "signature": "0a8822242f824ebbb0dfddd6c8b130321b9c6668"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "DevStore.Tests/1.0.0": {
         "dependencies": {
+          "DevStore.Domain": "1.0.0",
+          "FluentValidator": "2.0.2",
           "MSTest.TestAdapter": "1.3.2",
           "MSTest.TestFramework": "1.3.2",
           "Microsoft.NET.Test.Sdk": "15.9.0"
         },
         "runtime": {
           "DevStore.Tests.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/15.9.0": {
@@ -1012,6 +1022,14 @@
             "fileVersion": "1.0.24212.1"
           }
         }
+      },
+      "DevStore.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "DevStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -1020,6 +1038,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.9.0": {
       "type": "package",
@@ -1510,6 +1535,11 @@
       "sha512": "sha512-gQQaCNO5FYxD37SNQvE+yZUNfCt/Y+FgCnead3hu37RsUiwy2cxqRDWPv+Ee+6DlOeV47xaSYYZ6GQW4EhoEXQ==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "DevStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

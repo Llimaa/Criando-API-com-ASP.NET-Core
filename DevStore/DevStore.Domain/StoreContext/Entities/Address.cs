@@ -1,11 +1,12 @@
 ﻿using DevStore.Domain.StoreContext.Enums;
+using FluentValidator;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Address
+    public class Address:Notifiable
     {
         public Address
         (

@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using DevStore.Domain.StoreContext.Enums;
+using FluentValidator;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order : Notifiable
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
@@ -28,17 +29,22 @@ namespace DevStore.Domain.StoreContext.Entities
         public IReadOnlyCollection<OrderItem> Items => _items.ToArray();
         public IReadOnlyCollection<Delivery> Deliveries => _deliveries.ToArray();
 
-        public void AddItem(OrderItem item)
+        public void AddItem(Product product, decimal quantity)
         {
+            if (quantity > product.QuantityOnHand)
+                AddNotification("OrderItem", $"Produto {product.Title} não tem {quantity} em estoque.");
+
+            var item = new OrderItem(product, quantity);
             _items.Add(item);
         }
 
         //Criar um pedido
-        public void Price()
+        public void Place()
         {
             //Gerar número do pedido.
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
-            //validar
+            if (_items.Count == 0)
+                AddNotification("Order", "Este pedido não possui itens!");
         }
 
         //Pagar um pedido
