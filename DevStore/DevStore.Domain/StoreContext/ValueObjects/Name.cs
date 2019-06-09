@@ -17,7 +17,6 @@ namespace DevStore.Domain.StoreContext.ValueObjects
                 .Requires()
                 .HasMinLen(FistName, 3, "firstName", "O nome deve ter no minimo 3 caracteres!")
                 .HasMinLen(LastName, 3, "lastname", "O nome deve ter no minimo 3 caracteres!")
-
                 .HasMaxLen(LastName, 30, "firstName", "O nome deve ter no maximo 30 caracteres!")
                 .HasMaxLen(LastName, 30, "lastname", "O nome deve ter no maximo 30 caracteres!")
             );
