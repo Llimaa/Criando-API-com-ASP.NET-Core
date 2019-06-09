@@ -2,9 +2,9 @@ using FluentValidator;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Product: Notifiable
+    public class Product : Notifiable
     {
-        public Product( string title,
+        public Product(string title,
          string description,
          string image,
          decimal price,
@@ -26,6 +26,11 @@ namespace DevStore.Domain.StoreContext.Entities
         public override string ToString()
         {
             return Title;
+        }
+
+        public void DecreaseQuantity(decimal quantity)
+        {
+            QuantityOnHand -= quantity;
         }
     }
 }

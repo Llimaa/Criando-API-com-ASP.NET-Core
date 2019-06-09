@@ -32,7 +32,7 @@ namespace DevStore.Domain.StoreContext.Entities
         public void AddItem(Product product, decimal quantity)
         {
             if (quantity > product.QuantityOnHand)
-                AddNotification("OrderItem", $"Produto {product.Title} não tem {quantity} em estoque.");
+                AddNotification("OrderItem", $"Produto {product.Title} nï¿½o tem {quantity} em estoque.");
 
             var item = new OrderItem(product, quantity);
             _items.Add(item);
@@ -41,10 +41,10 @@ namespace DevStore.Domain.StoreContext.Entities
         //Criar um pedido
         public void Place()
         {
-            //Gerar número do pedido.
+            //Gerar nï¿½mero do pedido.
             Number = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
             if (_items.Count == 0)
-                AddNotification("Order", "Este pedido não possui itens!");
+                AddNotification("Order", "Este pedido nï¿½o possui itens!");
         }
 
         //Pagar um pedido
@@ -56,9 +56,9 @@ namespace DevStore.Domain.StoreContext.Entities
         //Enviar um pedido.
         public void Ship()
         {
-            //A cada 5 produtos é um entrega.
+            //A cada 5 produtos ï¿½ um entrega.
             var deliveries = new List<Delivery>();
-            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
+            // deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
             var count = 1;
 
             //Quebra as entregas.
