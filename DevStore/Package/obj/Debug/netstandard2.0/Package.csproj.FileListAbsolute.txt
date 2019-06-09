@@ -1,0 +1,9 @@
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\bin\Debug\netstandard2.0\Package.deps.json
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\bin\Debug\netstandard2.0\Package.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\bin\Debug\netstandard2.0\Package.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.csprojAssemblyReference.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.csproj.CoreCompileInputs.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.AssemblyInfoInputs.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.AssemblyInfo.cs
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard2.0\Package.pdb

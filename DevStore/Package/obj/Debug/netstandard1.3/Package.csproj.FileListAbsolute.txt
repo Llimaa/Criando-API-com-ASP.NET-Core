@@ -1,0 +1,1 @@
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\obj\Debug\netstandard1.3\Package.csprojAssemblyReference.cache

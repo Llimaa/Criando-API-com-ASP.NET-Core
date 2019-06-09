@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\DevStore.Infra.csproj",
+      "projectUniqueName": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\DevStore.Infra.csproj",
       "projectName": "DevStore.Infra",
-      "projectPath": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\DevStore.Infra.csproj",
+      "projectPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\DevStore.Infra.csproj",
       "packagesPath": "C:\\Users\\limaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\obj\\",
+      "outputPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

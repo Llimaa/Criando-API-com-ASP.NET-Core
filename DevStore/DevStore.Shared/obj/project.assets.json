@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj",
+      "projectUniqueName": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj",
       "projectName": "DevStore.Shared",
-      "projectPath": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj",
+      "projectPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj",
       "packagesPath": "C:\\Users\\limaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\limaa\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\obj\\",
+      "outputPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

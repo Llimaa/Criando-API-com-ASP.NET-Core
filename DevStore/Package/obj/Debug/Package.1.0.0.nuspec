@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0</version>
+    <authors>Marcos Lima</authors>
+    <owners>Marcos Lima</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Pacote teste</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\Package\bin\Debug\netstandard2.0\Package.dll" target="lib\netstandard2.0\Package.dll" />
+  </files>
+</package>

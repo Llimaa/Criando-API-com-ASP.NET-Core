@@ -7,3 +7,12 @@ C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domai
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.AssemblyInfo.cs
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.dll
 C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\bin\Debug\netstandard2.0\DevStore.Domain.deps.json
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\bin\Debug\netstandard2.0\DevStore.Domain.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\bin\Debug\netstandard2.0\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.csprojAssemblyReference.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.csproj.CoreCompileInputs.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.AssemblyInfoInputs.cache
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.AssemblyInfo.cs
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.pdb
