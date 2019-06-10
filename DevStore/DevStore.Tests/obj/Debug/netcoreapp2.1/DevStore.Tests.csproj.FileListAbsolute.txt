@@ -32,3 +32,5 @@ D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csproj.CopyComplete
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.pdb

@@ -1025,10 +1025,16 @@
       },
       "DevStore.Domain/1.0.0": {
         "dependencies": {
+          "DevStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "runtime": {
           "DevStore.Domain.dll": {}
+        }
+      },
+      "DevStore.Shared/1.0.0": {
+        "runtime": {
+          "DevStore.Shared.dll": {}
         }
       }
     }
@@ -1537,6 +1543,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "DevStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevStore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

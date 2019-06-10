@@ -16,3 +16,6 @@ D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.AssemblyInfo.cs
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\bin\Debug\netstandard2.0\DevStore.Shared.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\bin\Debug\netstandard2.0\DevStore.Shared.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Domain\obj\Debug\netstandard2.0\DevStore.Domain.csproj.CopyComplete

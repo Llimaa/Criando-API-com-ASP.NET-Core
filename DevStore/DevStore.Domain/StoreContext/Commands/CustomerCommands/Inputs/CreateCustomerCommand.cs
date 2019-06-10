@@ -25,7 +25,7 @@ namespace DevStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
                 .HasMaxLen(Document, 11, "Document", "Documento Inválido")
                 .HasMinLen(Document, 11, "Document", "Documento Inválido")
             );
-            return Valid();
+            return IsValid;
         }
     }
 }

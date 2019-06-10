@@ -1,5 +1,8 @@
 using System;
 using DevStore.Domain.StoreContext.Enums;
+using DevStore.Shared.Commands;
+using FluentValidator;
+using FluentValidator.Validation;
 
 namespace DevStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
 {
