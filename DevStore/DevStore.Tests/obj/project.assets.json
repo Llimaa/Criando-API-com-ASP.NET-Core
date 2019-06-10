@@ -1634,6 +1634,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "DevStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "compile": {
@@ -1641,6 +1642,16 @@
         },
         "runtime": {
           "bin/placeholder/DevStore.Domain.dll": {}
+        }
+      },
+      "DevStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DevStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevStore.Shared.dll": {}
         }
       }
     }
@@ -5859,6 +5870,11 @@
       "type": "project",
       "path": "../DevStore.Domain/DevStore.Domain.csproj",
       "msbuildProject": "../DevStore.Domain/DevStore.Domain.csproj"
+    },
+    "DevStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DevStore.Shared/DevStore.Shared.csproj",
+      "msbuildProject": "../DevStore.Shared/DevStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

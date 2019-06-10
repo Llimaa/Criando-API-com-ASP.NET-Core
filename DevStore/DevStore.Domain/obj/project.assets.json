@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "DevStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DevStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -195,10 +205,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "DevStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DevStore.Shared/DevStore.Shared.csproj",
+      "msbuildProject": "../DevStore.Shared/DevStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "DevStore.Shared >= 1.0.0",
       "FluentValidator >= 2.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -232,7 +248,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj": {
+              "projectPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

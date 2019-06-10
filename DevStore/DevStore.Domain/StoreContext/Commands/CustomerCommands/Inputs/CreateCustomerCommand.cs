@@ -1,10 +1,11 @@
+using DevStore.Shared.Commands;
 using FluentValidator;
 using FluentValidator.Validation;
 using System;
 
 namespace DevStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
 {
-    public class CreateCustomerCommand : Notifiable
+    public class CreateCustomerCommand : Notifiable, ICommand
     {
         public string FistName { get; set; }
         public string LastName { get; set; }
