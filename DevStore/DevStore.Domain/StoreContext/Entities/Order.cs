@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using DevStore.Domain.StoreContext.Enums;
+using DevStore.Shared.Entities;
 using FluentValidator;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Order : Notifiable
+    public class Order : Entity
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;

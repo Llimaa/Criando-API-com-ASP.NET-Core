@@ -1,12 +1,13 @@
 
 using DevStore.Domain.StoreContext.ValueObjects;
+using DevStore.Shared.Entities;
 using FluentValidator;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Customer: Notifiable
+    public class Customer: Entity
     {
         private readonly IList<Address> _addresses;
         public Customer(Name name, Document document, Email email, string phone)

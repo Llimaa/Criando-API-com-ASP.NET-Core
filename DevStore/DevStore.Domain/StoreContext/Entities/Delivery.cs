@@ -1,10 +1,11 @@
 using System;
 using DevStore.Domain.StoreContext.Enums;
+using DevStore.Shared.Entities;
 using FluentValidator;
 
 namespace DevStore.Domain.StoreContext.Entities
 {
-    public class Delivery: Notifiable
+    public class Delivery: Entity
     {
         public Delivery(DateTime estimateDeliveryDate)
         {
