@@ -26,11 +26,13 @@ namespace DevStore.Domain.StoreContext.Handles
         public ICommandResult Handle(CreateCustomerCommand command)
         {
             // Verificar se CPF ja existe na base.
-            if(_customerRepository.CheckDocument(command.Document));
+            if(_customerRepository.CheckDocument(command.Document))
                 AddNotification("Document", "O CPF ja esta em uso!");
+
             //Verificar se E-mail ja existe na base.
             if(_customerRepository.CHeckEmail(command.Email))
                 AddNotification("Email","Este e-mail ja esta em uso!");
+
             //Criar VOs
             var name = new Name(command.FistName, command.LastName);
             var document = new Document(command.Document);
@@ -50,9 +52,10 @@ namespace DevStore.Domain.StoreContext.Handles
             //Persistir o criente.
             _customerRepository.Save(customer);
             //Enviar um E-mail de boas vindas.
-            _emailService.send(command.Email, "lima@gmail.com","Bem vindo", "Seja bem vindo ao dev store!");
+            _emailService.send(command.Email, "lima@gmail.com","Bem vindo", "Seja bem vindo ao Dev Store!");
+
             //Retornar o resultado para a tela.
-            return new CreateCustomerCommandResult(Guid.NewGuid(), name.ToString(), email.Address);
+            return new CreateCustomerCommandResult(customer.Id, name.ToString(), email.Address);
         }
 
         public ICommandResult Handle(AddAddressCommand command)
