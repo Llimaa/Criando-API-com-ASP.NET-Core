@@ -7,17 +7,17 @@ namespace DevStore.Infra.StoreContext.DataContexts
 {
     public class DataContext : IDisposable
     {
-        private SqlConnection _connection { get; set; }
+        public SqlConnection Connection { get; set; }
 
         public DataContext()
         {
-            _connection = new SqlConnection(Settings.ConnectionString);
-            _connection.Open();
+            Connection = new SqlConnection(Settings.ConnectionString);
+            Connection.Open();
         }
         public void Dispose()
         {
-            if (_connection.State != ConnectionState.Closed) ;
-            _connection.Close();
+            if (Connection.State != ConnectionState.Closed) ;
+            Connection.Close();
         }
     }
 }

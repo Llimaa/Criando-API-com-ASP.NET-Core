@@ -357,6 +357,20 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "DevStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "DevStore.Shared": "1.0.0",
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/DevStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevStore.Domain.dll": {}
+        }
+      },
       "DevStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1605,6 +1619,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "DevStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevStore.Domain/DevStore.Domain.csproj",
+      "msbuildProject": "../DevStore.Domain/DevStore.Domain.csproj"
+    },
     "DevStore.Shared/1.0.0": {
       "type": "project",
       "path": "../DevStore.Shared/DevStore.Shared.csproj",
@@ -1614,6 +1633,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Dapper >= 1.60.9",
+      "DevStore.Domain >= 1.0.0",
       "DevStore.Shared >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -1648,6 +1668,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Domain\\DevStore.Domain.csproj": {
+              "projectPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Domain\\DevStore.Domain.csproj"
+            },
             "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj": {
               "projectPath": "D:\\backup\\source\\repos\\Criando-API-com-ASP.NET-Core\\DevStore\\DevStore.Shared\\DevStore.Shared.csproj"
             }
