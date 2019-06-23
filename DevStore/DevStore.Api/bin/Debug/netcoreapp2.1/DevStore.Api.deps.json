@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "b11255404fce495de4ff4a75bc4c3076d1219f3f"
+    "signature": "1a84dad29ce3fb55c074d92f145a8ae921e955a8"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "DevStore.Api/1.0.0": {
         "dependencies": {
+          "DevStore.Domain": "1.0.0",
           "Microsoft.AspNetCore": "2.1.7",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -35,6 +36,20 @@
         },
         "compile": {
           "DevStore.Api.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
         }
       },
       "Microsoft.AspNetCore/2.1.7": {
@@ -551,6 +566,29 @@
         },
         "compile": {
           "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        }
+      },
+      "DevStore.Domain/1.0.0": {
+        "dependencies": {
+          "DevStore.Shared": "1.0.0",
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "DevStore.Domain.dll": {}
+        },
+        "compile": {
+          "DevStore.Domain.dll": {}
+        }
+      },
+      "DevStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "DevStore.Shared.dll": {}
+        },
+        "compile": {
+          "DevStore.Shared.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3538,6 +3576,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
+    },
     "Microsoft.AspNetCore/2.1.7": {
       "type": "package",
       "serviceable": true,
@@ -3761,6 +3806,16 @@
       "sha512": "sha512-L3R/xk1s+AJB/ZRrwXyjXMmKp+RNgLP92LSidWEM0iCouznJoiiBloDCxRTjmo8hTDAKSWaMrltsttUzg1RhjA==",
       "path": "system.security.principal.windows/4.5.1",
       "hashPath": "system.security.principal.windows.4.5.1.nupkg.sha512"
+    },
+    "DevStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevStore.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

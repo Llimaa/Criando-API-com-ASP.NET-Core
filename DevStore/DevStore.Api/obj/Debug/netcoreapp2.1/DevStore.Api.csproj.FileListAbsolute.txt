@@ -26,3 +26,8 @@ D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\De
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Api.pdb
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Domain.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Shared.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\bin\Debug\netcoreapp2.1\DevStore.Shared.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Api\obj\Debug\netcoreapp2.1\DevStore.Api.csproj.CopyComplete
