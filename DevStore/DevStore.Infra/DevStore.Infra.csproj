@@ -4,4 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="StoreContext\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevStore.Shared\DevStore.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

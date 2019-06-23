@@ -20,7 +20,7 @@ namespace DevStore.Tests.Fakes
 
         public void Save(Customer customer)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

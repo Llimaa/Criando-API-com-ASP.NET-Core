@@ -7,20 +7,21 @@ namespace DevStore.Tests.Handlers
     [TestClass]
     public class CusotmerHandlerTests
     {
-
         [TestMethod]
         public void ShouldRegisterCustomerWhenCommandIsValid()
         {
             var command = new CreateCustomerCommand();
             command.FistName = "marcos";
             command.LastName = "Lima";
-            command.Document = "232323233345643";
+            command.Document = "70858024055";
             command.Email = "limaa@gmail.com";
-            command.Phone = "23234";
-
-            Assert.AreEqual(true, command);
+            command.Phone = "9924343443";
 
             var handler = new CustomerCommandHandle(new FakeCustomerRepository(), new FakeEmailService());
+            var result = handler.Handle(command);
+
+            Assert.AreNotEqual(null, result);
+            Assert.AreEqual(true, handler.IsValid);
         }
     }
 }

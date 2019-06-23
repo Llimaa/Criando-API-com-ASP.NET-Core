@@ -47,7 +47,7 @@ namespace DevStore.Domain.StoreContext.Handles
             AddNotifications(email.Notifications);
             AddNotifications(customer.Notifications);
 
-            if (IsValid)
+            if (Invalid)
                 return null;
             //Persistir o criente.
             _customerRepository.Save(customer);
