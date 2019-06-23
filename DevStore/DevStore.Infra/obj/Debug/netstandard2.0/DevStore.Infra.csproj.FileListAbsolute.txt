@@ -10,9 +10,14 @@ C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Infra.deps.json
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Infra.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Infra.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Domain.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Shared.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\bin\Debug\netstandard2.0\DevStore.Shared.pdb
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.csprojAssemblyReference.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.csproj.CoreCompileInputs.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.AssemblyInfoInputs.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.AssemblyInfo.cs
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.csproj.CopyComplete
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Infra\obj\Debug\netstandard2.0\DevStore.Infra.pdb

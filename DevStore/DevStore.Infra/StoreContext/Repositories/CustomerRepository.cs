@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using DevStore.Domain.StoreContext.Entities;
+using DevStore.Domain.StoreContext.Queries;
 using DevStore.Domain.StoreContext.Repositoties;
 using DevStore.Infra.StoreContext.DataContexts;
 using System;
@@ -28,6 +29,14 @@ namespace DevStore.Infra.StoreContext.Repositories
             return _context.Connection.Query<bool>("spCheckEmail",
                 new { Email = email },
                 commandType: CommandType.StoredProcedure) // uso esse parametro pra dizer que em vez de usar o select eu uso no nome da minha store procedure.
+               .FirstOrDefault();
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        {
+            return _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount",
+                new { Document = document },
+                commandType: CommandType.StoredProcedure)
                .FirstOrDefault();
         }
 

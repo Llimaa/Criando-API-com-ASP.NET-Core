@@ -24,7 +24,9 @@ D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Tests.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Tests.pdb
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Domain.dll
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Domain.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.pdb
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csprojAssemblyReference.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csproj.CoreCompileInputs.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.AssemblyInfoInputs.cache
@@ -32,5 +34,3 @@ D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.csproj.CopyComplete
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\obj\Debug\netcoreapp2.1\DevStore.Tests.pdb
-D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.dll
-D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Tests\bin\Debug\netcoreapp2.1\DevStore.Shared.pdb

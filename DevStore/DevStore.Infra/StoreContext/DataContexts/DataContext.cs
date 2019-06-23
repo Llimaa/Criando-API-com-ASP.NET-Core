@@ -16,7 +16,7 @@ namespace DevStore.Infra.StoreContext.DataContexts
         }
         public void Dispose()
         {
-            if (Connection.State != ConnectionState.Closed) ;
+            if (Connection.State != ConnectionState.Closed)
             Connection.Close();
         }
     }

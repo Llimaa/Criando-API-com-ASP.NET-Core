@@ -1,4 +1,5 @@
 ﻿using DevStore.Domain.StoreContext.Entities;
+using DevStore.Domain.StoreContext.Queries;
 using DevStore.Domain.StoreContext.Repositoties;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,11 @@ namespace DevStore.Tests.Fakes
         public bool CHeckEmail(string email)
         {
             return false;
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
+        {
+            throw new NotImplementedException();
         }
 
         public void Save(Customer customer)
