@@ -4,6 +4,7 @@ using DevStore.Domain.StoreContext.Queries;
 using DevStore.Domain.StoreContext.Repositoties;
 using DevStore.Infra.StoreContext.DataContexts;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
@@ -32,12 +33,33 @@ namespace DevStore.Infra.StoreContext.Repositories
                .FirstOrDefault();
         }
 
+        public IEnumerable<ListCustomerQueryResult> Get()
+        {
+            var sql = "SELECT [Id], CONCAT ([FirstName] , ' ', [LastName]) as [Name],[Document], [Email] FROM [Customer]";
+
+            return _context.Connection.Query<ListCustomerQueryResult>(sql);
+        }
+
+        public GetCustomerQueryRepository Get(Guid id)
+        {
+            var sql = "SELECT [Id], CONCAT ([FirstName] , ' ', [LastName])  as [Name],[Document], [Email] FROM [Customer] WHERE [Id] = @id";
+
+            return _context.Connection.Query<GetCustomerQueryRepository>(sql, new {id = id }).FirstOrDefault();
+        }
+
         public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
         {
             return _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount",
                 new { Document = document },
                 commandType: CommandType.StoredProcedure)
                .FirstOrDefault();
+        }
+
+        public IEnumerable<ListCustomerOrderResult> GetOrdes(Guid Id)
+        {
+            var sql = "";
+
+            return _context.Connection.Query<ListCustomerOrderResult>(sql, new { id = Id});
         }
 
         public void Save(Customer customer)

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DevStore.Domain.StoreContext.Commands.CustomerCommands.Output
 {
-    public class CreateCustomerCommandResult : ICommandResult
+    public class CommandResult:ICommandResult
     {
-        public CreateCustomerCommandResult(bool sucess, string mensagem, object data)
+        public CommandResult(bool sucess, string mensagem, object data)
         {
             Sucess = sucess;
             Mensagem = mensagem;

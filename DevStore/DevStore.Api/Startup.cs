@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DevStore.Domain.StoreContext.Handles;
 using DevStore.Domain.StoreContext.Repositoties;
 using DevStore.Domain.StoreContext.Services;
 using DevStore.Infra.Services;
@@ -23,6 +24,7 @@ namespace DevStore.Api
             services.AddScoped<DataContext, DataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<CustomerCommandHandle, CustomerCommandHandle>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

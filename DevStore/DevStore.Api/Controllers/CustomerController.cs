@@ -1,73 +1,55 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DevStore.Domain.StoreContext.Commands.CustomerCommands.Inputs;
+using DevStore.Domain.StoreContext.Commands.CustomerCommands.Output;
 using DevStore.Domain.StoreContext.Entities;
+using DevStore.Domain.StoreContext.Handles;
+using DevStore.Domain.StoreContext.Queries;
+using DevStore.Domain.StoreContext.Repositoties;
 using DevStore.Domain.StoreContext.ValueObjects;
+using DevStore.Shared.Commands;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 
 namespace DevStore.Api.Controllers
 {
     public class CustomerController : Controller
     {
+        private readonly ICustomerRepository _customerRepository;
+        private readonly CustomerCommandHandle _handle;
+        public CustomerController(ICustomerRepository customerRepository, CustomerCommandHandle handle)
+        {
+            _customerRepository = customerRepository;
+            _handle = handle;
+        }
+
         [HttpGet]
         [Route("customers")]
-        public List<Customer> Get()
+        [ResponseCache(Duration =60)]//em minutos.
+        public IEnumerable<ListCustomerQueryResult> Get()
         {
-            var name = new Name("Marcos", "Lima");
-            var document = new Document("69475408010");
-            var email = new Email("lima@gmail.com");
-            var customer = new Customer(name, document, email, "991285912");
-            var customers = new List<Customer>();
-            customers.Add(customer);
-
-            return customers;
+            return _customerRepository.Get();
         }
 
         [HttpGet]
         [Route("customers/{id}")]
-        public Customer GetById(Guid id)
+        public GetCustomerQueryRepository GetById(Guid id)
         {
-            var name = new Name("Marcos", "Lima");
-            var document = new Document("69475408010");
-            var email = new Email("lima@gmail.com");
-            var customer = new Customer(name, document, email, "991285912");
-
-            return customer;
+            return _customerRepository.Get(id);
         }
 
         [HttpGet]
         [Route("customers/{id}/orders")]
-        public List<Order> GetOrders(Guid id)
+        public IEnumerable<ListCustomerOrderResult> GetOrders(Guid id)
         {
-            var name = new Name("Marcos", "Lima");
-            var document = new Document("69475408010");
-            var email = new Email("lima@gmail.com");
-            var customer = new Customer(name, document, email, "991285912");
-            var order = new Order(customer);
-            var mouse = new Product("Mouse", "Mouse Game", "mouse.png", 100M, 10);
-            var monitor = new Product("Monitor", "Monitor Game", "monitor.png", 100M, 10);
-            order.AddItem(monitor, 5);
-            order.AddItem(mouse, 5);
-
-            var orders = new List<Order>();
-            orders.Add(order);
-
-            return orders;
+            return _customerRepository.GetOrdes(id);
         }
 
         [HttpPost]
         [Route("customers")]
-        public Customer Post([FromBody]CreateCustomerCommand command)
+        public ICommandResult Post([FromBody]CreateCustomerCommand command)
         {
-            var name = new Name(command.FistName, command.LastName);
-            var document = new Document(command.Document);
-            var email = new Email(command.Email);
-            var customer = new Customer(name, document, email, command.Phone);
-
-            return customer;
+            var result = (CreateCustomerCommandResult)_handle.Handle(command);
+            return result;
         }
 
         [HttpPut]

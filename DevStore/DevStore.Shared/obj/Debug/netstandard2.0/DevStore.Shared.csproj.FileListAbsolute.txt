@@ -10,6 +10,7 @@ C:\Users\limaa\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Share
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\bin\Debug\netstandard2.0\DevStore.Shared.deps.json
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\bin\Debug\netstandard2.0\DevStore.Shared.dll
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\bin\Debug\netstandard2.0\DevStore.Shared.pdb
+D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\obj\Debug\netstandard2.0\DevStore.Shared.csprojAssemblyReference.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\obj\Debug\netstandard2.0\DevStore.Shared.csproj.CoreCompileInputs.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\obj\Debug\netstandard2.0\DevStore.Shared.AssemblyInfoInputs.cache
 D:\backup\source\repos\Criando-API-com-ASP.NET-Core\DevStore\DevStore.Shared\obj\Debug\netstandard2.0\DevStore.Shared.AssemblyInfo.cs
