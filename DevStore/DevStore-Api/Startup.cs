@@ -17,6 +17,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using Elmah.Io.AspNetCore;
+using System.IO;
+using DevStore.Shared;
 
 namespace DevStore_Api
 {
@@ -32,6 +35,10 @@ namespace DevStore_Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var build = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddScoped<DataContext, DataContext>();
@@ -56,6 +63,14 @@ namespace DevStore_Api
                     }
                 });
             });
+
+            Settings.ConnectionString = $"{Configuration["connectionString"]}";
+
+            services.AddElmahIo(o =>
+            {
+                o.ApiKey = "5cd81c4a8d5c4b84a9ac3998e1bf0b52";
+                o.LogId = new Guid("efcc2a0a-da89-46de-b26d-3c24d78535ac");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -79,6 +94,8 @@ namespace DevStore_Api
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dev_Store_V1");
             });
+
+            app.UseElmahIo();
         }
     }
 }

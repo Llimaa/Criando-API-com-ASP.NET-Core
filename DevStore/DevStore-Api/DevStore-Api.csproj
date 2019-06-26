@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
@@ -16,6 +17,13 @@
     <ProjectReference Include="..\DevStore.Domain\DevStore.Domain.csproj" />
     <ProjectReference Include="..\DevStore.Infra\DevStore.Infra.csproj" />
     <ProjectReference Include="..\DevStore.Shared\DevStore.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\appsettings.json\Controllers\" />
+    <Folder Include="Areas\appsettings.json\Data\" />
+    <Folder Include="Areas\appsettings.json\Models\" />
+    <Folder Include="Areas\appsettings.json\Views\" />
   </ItemGroup>
 
 </Project>
